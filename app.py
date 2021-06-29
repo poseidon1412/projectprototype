@@ -35,7 +35,7 @@ def main():
 			except Exception as e:
 				st.error(
 					'The data inserted is not compatible with the algorithm selected for example you have selected a regression algorithm'
-					'but your dataset include strings which cannot be parsed to floats or integers thus since the regression algorithm works')
+					'but your dataset include strings which cannot be parsed to floats or integers thus since the regression algorithm works'
 					'with numbers and not other datatypes, it will give an error please select another algorithm.................')
 					'PLEASE SELECT ANOTHER ALGORITHM')
 

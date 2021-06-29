@@ -33,14 +33,11 @@ def main():
 				st.write('ACCURACY is {}'.format(accuracy))
 		
 			except Exception as e:
-				st.error('
-
-					The data inserted is not compatible with the algorithm selected for example you have selected a regression algorithm
-					but your dataset include strings which cannot be parsed to floats or integers thus since the regression algorithm works
-					with numbers and not other datatypes it will give an error please select another algorithm..........................
-					PLEASE SELECT ANOTHER ALGORITHM 
-			
-					')
+				st.error(
+					'The data inserted is not compatible with the algorithm selected for example you have selected a regression algorithm'
+					'but your dataset include strings which cannot be parsed to floats or integers thus since the regression algorithm works')
+					'with numbers and not other datatypes, it will give an error please select another algorithm.................')
+					'PLEASE SELECT ANOTHER ALGORITHM')
 
 		elif selected_model == 'Logistic Regression':
 			st.write('''# Logistic Regression''')
@@ -51,14 +48,11 @@ def main():
 				st.write('ACCURACY is {}'.format(accuracy))
 		
 			except Exception as e:
-				st.error('
-
-					The data inserted is not compatible with the algorithm selected for example you have selected a regression algorithm
-					but your dataset include strings which cannot be parsed to floats or integers thus since the regression algorithm works
-					with numbers and not other datatypes it will give an error please select another algorithm..........................
-					PLEASE SELECT ANOTHER ALGORITHM 
-			
-					')
+				st.error(
+					'The data inserted is not compatible with the algorithm selected for example you have selected a regression algorithm'
+					'but your dataset include strings which cannot be parsed to floats or integers thus since the regression algorithm works'
+					'with numbers and not other datatypes it will give an error please select another algorithm..........................'
+					'PLEASE SELECT ANOTHER ALGORITHM.')
 	
 		elif selected_model == 'SVM':
 			st.write('''# SVM''')
@@ -70,14 +64,11 @@ def main():
 				st.write('ACCURACY is {}'.format(accuracy))
 		
 			except Exception as e:
-				st.error('
-
-					The data inserted is not compatible with the algorithm selected for example you have selected a regression algorithm
-					but your dataset include strings which cannot be parsed to floats or integers thus since the regression algorithm works
-					with numbers and not other datatypes it will give an error please select another algorithm..........................
-					PLEASE SELECT ANOTHER ALGORITHM 
-			
-					')
+				st.error(
+					'The data inserted is not compatible with the algorithm selected for example you have selected a regression algorithm'
+					'but your dataset include strings which cannot be parsed to floats or integers thus since the regression algorithm works'
+					'with numbers and not other datatypes it will give an error please select another algorithm..........................'
+					'PLEASE SELECT ANOTHER ALGORITHM.')
 			
 		elif selected_model == 'KNN':
 			st.write('''# KNN''')
@@ -89,14 +80,11 @@ def main():
 				st.write('ACCURACY is {}'.format(accuracy))
 		
 			except Exception as e:
-				st.error('
-
-					The data inserted is not compatible with the algorithm selected for example you have selected a regression algorithm
-					but your dataset include strings which cannot be parsed to floats or integers thus since the regression algorithm works
-					with numbers and not other datatypes it will give an error please select another algorithm..........................
-					PLEASE SELECT ANOTHER ALGORITHM 
-			
-					')	
+				st.error(
+					'The data inserted is not compatible with the algorithm selected for example you have selected a regression algorithm'
+					'but your dataset include strings which cannot be parsed to floats or integers thus since the regression algorithm works'
+					'with numbers and not other datatypes it will give an error please select another algorithm..........................'
+					'PLEASE SELECT ANOTHER ALGORITHM.')	
 
 		elif selected_model == 'Random Forest':
 			st.write('''Random Forest''')
@@ -109,14 +97,11 @@ def main():
 				st.write('ACCURACY is {}'.format(accuracy))
 		
 			except Exception as e:
-				st.error('
-
-					The data inserted is not compatible with the algorithm selected for example you have selected a regression algorithm
-					but your dataset include strings which cannot be parsed to floats or integers thus since the regression algorithm works
-					with numbers and not other datatypes it will give an error please select another algorithm..........................
-					PLEASE SELECT ANOTHER ALGORITHM 
-			
-					')
+				st.error(
+					'The data inserted is not compatible with the algorithm selected for example you have selected a regression algorithm'
+					'but your dataset include strings which cannot be parsed to floats or integers thus since the regression algorithm works'
+					'with numbers and not other datatypes it will give an error please select another algorithm..........................'
+					'PLEASE SELECT ANOTHER ALGORITHM.')
 
 	def explanatory_data_analysis():
 		# Show Dataset
